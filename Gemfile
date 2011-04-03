@@ -1,0 +1,10 @@
+source 'http://rubygems.org'
+
+gem 'rails', '3.0.5'
+gem 'jdbc-sqlite3'
+gem 'activerecord-jdbcsqlite3-adapter'
+gem 'awesome_print'
+gem 'paperclip'
+gem 'haml'
+gem 'jquery-rails'
+gem 'jruby-openssl'

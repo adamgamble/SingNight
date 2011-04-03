@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  book_id: 1
+  song_number: 1
+  title: MyText
+  beat_pattern: MyString
+  key: MyString
+  starting_pitch: MyString
+  starting_pitch_direction: MyString
+  time: MyString
+  starting_beat: 1
+
+two:
+  book_id: 1
+  song_number: 1
+  title: MyText
+  beat_pattern: MyString
+  key: MyString
+  starting_pitch: MyString
+  starting_pitch_direction: MyString
+  time: MyString
+  starting_beat: 1

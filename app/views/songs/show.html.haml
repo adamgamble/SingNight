@@ -1,0 +1,10 @@
+=@song.title
+%br
+-@song.sections.each do |section|
+  = "#{section.section_type.upcase} #{section.number}"
+  |
+  - section.images.each do |image|
+    = link_to image.image_number, "?show_specific_song=true&section_type=#{section.section_type}&section_number=#{section.number}&image_number=#{image.image_number}"
+    |
+
+  %br
